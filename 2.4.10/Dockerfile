@@ -15,4 +15,4 @@ VOLUME ["/data"]
 
 EXPOSE 27017
 CMD ["/mongodb-linux-x86_64-2.4.10/bin/mongod"]
-#ENTRYPOINT /mongodb-linux-x86_64-2.4.10/bin/mongod
+
