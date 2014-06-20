@@ -25,7 +25,7 @@ docker build -t stumpy/mongodb:x.y.z .
 
 or for a specific version
 
-`docker run -d -p 27017:27017 --name mongodb stumpy/mongodb:x:y:z`
+`docker run -d -p 27017:27017 --name mongodb stumpy/mongodb:x.y.z`
 
 #### Run `mongod` with mounted volume
 
@@ -33,4 +33,4 @@ or for a specific version
 
 or for a specific version
 
-`docker run -d -p 27017:27017 -v <data-dir>/db:/data/db --name mongodb stumpy/mongodb:x:y:z`
+`docker run -d -p 27017:27017 -v <data-dir>/db:/data/db --name mongodb stumpy/mongodb:x.y.z`
